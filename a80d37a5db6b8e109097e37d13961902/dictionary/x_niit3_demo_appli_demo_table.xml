@@ -1,3 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="a55d33e5db6b8e109097e37d139619bf" extends="task" label="Demo Table" max_length="40" name="x_niit3_demo_appli_demo_table" type="collection"/>
+    <element db_object_id="a55d33e5db6b8e109097e37d139619bf" extends="task" label="Demo Table" max_length="40" name="x_niit3_demo_appli_demo_table" type="collection">
+        <element choice="3" default="False" label="Visual Shift" max_length="40" name="visual_shift" type="boolean">
+            <choice/>
+        </element>
+    </element>
 </database>
